@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+   
+    width: 30%;
+    height: 100%;
+}
+
+.main-content {
+    background-color: grey;
+    width: 70%;
+}
+
+.container div {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: white;
+    background-color: rgb(141, 100, 47);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
