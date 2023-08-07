@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+span{
+    color: rgba(212, 86, 27, 0.985);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+nav ul li a:hover{
+    color: rgba(212, 86, 27, 0.985);
+    transition: .3s;
+}
+button{
+    border: none;
+    background: rgba(212, 86, 27, 0.985);
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+   
+    width: 30%;
+    height: 100%;
+}
+
+.main-content {
+    background-color: rgb(53, 52, 52);
+    width: 70%;
+}
+
+.container div {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: rgba(212, 86, 27, 0.985);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+
+a {
+    color: burlywood;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+.projectB {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.project {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    margin: 5px 0;
+}
+
+.project p {
+    margin: 5px 0;
+}
