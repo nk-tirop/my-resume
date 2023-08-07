@@ -112,3 +112,28 @@ img {
     width: 100%;
     height: auto;
 }
+
+
+.projectB {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+.project {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.project h2 {
+    margin: 5px 0;
+}
+
+.project p {
+    margin: 5px 0;
+}
